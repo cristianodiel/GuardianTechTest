@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include 999.0022.0.h"
+#include "999.0022.0.h"
 
 int main()
 {
@@ -20,6 +20,6 @@ int main()
     segundo uma mensagem (via CAN) “perguntando” ao item 999.0020.0 se ele está presente;*/
     /*Passado mais 1 segundo, se o item 999.0020.0 estiver presente nada deverá acontecer, mas se
     ele não responder, o programa para de rodar até que o item seja re-conectado*/
-    printf("Hello world!\n");
+
     return 0;
 }
