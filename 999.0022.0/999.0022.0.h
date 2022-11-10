@@ -2,10 +2,9 @@ void ConfigMCU();
 void ECAN_Initialize();
 void CAN_transmit(*tempCanMsg);
 void CAN_receive(*tempCanMsg);
-typedef union
-{
-    struct
-    {
+
+typedef union {
+    struct {
         uint8_t idType;
         uint32_t id;
         uint8_t dlc;
@@ -20,3 +19,4 @@ typedef union
     } frame;
     uint8_t array[14];
 } uCAN_MSG;
+ void ISR()iv 0x0018 ics ICS_AUTO;
