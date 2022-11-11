@@ -27,6 +27,8 @@ int main()
     txMessage.frame.data2 = 0x00;
     txMessage.frame.data3 = 0x00;
 
+    TMR0_SetInterruptHandler(TMR0_compareInterrupt); //chamando a função timer
+
     while (1){/*Indiferente do item 999.0020.0 estar conectado ou não, o item 999.0022.0 precisa continuar perguntando, (ouvindo) se a conexão está mantida.*/
         /* o programa deverá enviar a cada 1 segundo uma mensagem (via CAN) “perguntando” ao item 999.0020.0 se ele está presente;*/
         função_timer(1s){

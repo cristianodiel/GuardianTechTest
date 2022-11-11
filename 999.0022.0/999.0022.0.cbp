@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/999.0022.0" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/999.0022" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/999.0022.0" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/999.0022" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,8 +34,23 @@
 		<Unit filename="999.0022.0.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="interrupt_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interrupt_manager.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mcc.h" />
+		<Unit filename="tmr0.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="tmr0.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Extensions />
 	</Project>

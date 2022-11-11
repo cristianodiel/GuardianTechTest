@@ -1,7 +1,7 @@
 void ConfigMCU();
 void ECAN_Initialize();
-void CAN_transmit(*tempCanMsg);
-void CAN_receive(*tempCanMsg);
+void CAN_transmit(uCAN_MSG *tempCanMsg);
+void CAN_receive(uCAN_MSG *tempCanMsg);
 
 typedef union {
     struct {
