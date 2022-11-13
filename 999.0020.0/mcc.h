@@ -68,7 +68,7 @@
  * @Example
     SYSTEM_Initialize(void);
  */
-void ConfigMCU();/*editei o nome desta função de inicialização nos arquivos mcc.c e mcc.h para atender ao enunciado proposto*/
+void ConfigMCU(); /*editei o nome desta função de inicialização nos arquivos mcc.c e mcc.h para atender ao enunciado proposto*/
 
 /**
  * @Param
